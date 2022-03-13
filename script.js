@@ -42,7 +42,6 @@
                 document.getElementById("msg").innerHTML=""
                 document.getElementById("greet").innerHTML=""
                 document.getElementById("warn").innerHTML="<b>Please Enter Company Name or Product Name or Price range"
-            console.log(fil)
             }
             else {
                 document.getElementById("warn").innerHTML=""
@@ -52,7 +51,6 @@
                 }
 
             })
-            console.log(newData)
             if(newData.length==0){
                 document.getElementById("msg").innerHTML=""
                 document.getElementById("greet").innerHTML=""
